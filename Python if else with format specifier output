@@ -1,0 +1,8 @@
+name=input("name:")
+age=float(input("age:"))
+phone=int(input("phone:"))
+if(age>=18):
+    print(f"{name} is ELIGIBLE")
+else:
+    print(f"{name} is NOT ELIGIBLE") #format specifier
+
