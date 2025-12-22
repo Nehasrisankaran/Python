@@ -1,0 +1,8 @@
+name=input("name:")
+p=int(input("P"))
+n=int(input("n"))
+r=int(input("r"))
+SI= p*n*r/100
+#print(SI)
+print(f"your final simple interest is {SI+p} \nI have used SI =  PNR/100")
+ 
