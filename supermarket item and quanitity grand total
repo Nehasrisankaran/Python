@@ -1,0 +1,24 @@
+#supermarket item and quanitity grand total
+print("ABC SUPERMARKET")
+name=input("name:")
+age=float(input("age:"))
+ph=int(input("Ph"))
+print(f"Welcome {name} to ABC SUPERMARKET \nAvailable \nmilk \nchoc \nbutter \nQuanttiy")
+#milk,choc,butter=50,50,90
+milkq=int(input("milk:"))
+chocq=int(input("choc:")) 
+butterq=int(input("butter:"))
+grandtotal=50*milkq+50*chocq+90*butterq
+print(f"grandtotal : {grandtotal}")
+#total:cash/card
+#card
+if(grandtotal>500):
+    print(f"Welcome {name} to card section")
+cardbank=input("bank:")
+total=grandtotal+18/100
+print(f"Your total incl.GST:{total}\nthankyou")
+#cash
+
+    
+    
+
