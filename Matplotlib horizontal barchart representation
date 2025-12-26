@@ -1,0 +1,13 @@
+#vertical barr chart
+import numpy as np
+import matplotlib.pyplot as plt
+objects=("a","b","c","d")
+y_pos=np.arange(len(objects))
+performance=[1,2,3,4]
+plt.figure(dpi=300)
+plt.bar(y_pos,performance,align="edge",color="green",alpha=1,tick_label=objects)
+plt.title("alphanum")
+plt.xlabel("alpha")
+plt.ylabel("num")
+plt.show()
+
