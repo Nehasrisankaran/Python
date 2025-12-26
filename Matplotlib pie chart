@@ -1,0 +1,13 @@
+#Matplotlib pie chart
+#import numpy as np
+import matplotlib.pyplot as plt
+labels="a","b","c","d"
+sizes=[23,56,78,90]
+colors=["blue","yellow","orange","green"]
+e=(0,0,0,0) #explode 1st slice
+#plot
+plt.figure(dpi=100)
+#plt.pie(sizes,labels=labels,colors=colors)
+plt.pie(sizes,explode=e, labels=labels,colors=colors,autopct="%1.0f%%",shadow=False,startangle=180)
+plt.axis("equals")
+plt.show()
